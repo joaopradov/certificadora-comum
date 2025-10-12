@@ -223,3 +223,33 @@
 .download-icon {
   font-size: 1.2rem;
 }
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .lessons-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .module {
+    padding: 1.5rem;
+  }
+
+  .module-header {
+    padding: 1.5rem;
+  }
+
+  .module-title {
+    font-size: 1.4rem;
+  }
+
+  .module-header[aria-expanded="true"] + .module-content {
+    padding: 0 1.5rem 1.5rem 1.5rem;
+  }
+
+  .module-content {
+    padding: 0 1.5rem;
+  }
+}
