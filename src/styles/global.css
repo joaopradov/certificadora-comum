@@ -1,0 +1,36 @@
+:root {
+    --font-family: "Poppins", sans-serif;
+
+    --bg-color: #F8F9FA;
+    --text-color-primary: #333333;
+    --text-color-secondary: #3B82F6;
+    --text-color-terciary: #667EEA;
+
+    --text-logo: 1.5rem;
+    --text-title: 3rem;
+    --text-section: 2.5rem;
+    --text-subtitle: 1.2rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--text-color-primary);
+    line-height: 1.5;
+    background-color: var(--bg-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}

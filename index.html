@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Web Front-End</title>
+    <link rel="stylesheet" href="./src/styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <i class="fa-solid fa-laptop-code"></i>
+                <span>WebFront</span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#materiais">Materiais</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Programação Web Front-End</h1>
+                <p class="hero-subtitle">
+                    Este curso foi criado para iniciantes que desejam dominar as tecnologias fundamentais do front-end: HTML, CSS e JavaScript. Aprenda a criar sites responsivos, interativos e profissionais do zero. 
+                </p>
+                <div class="hero-features">
+                    <div class="feature">
+                        <div class="feature-icon"> 
+                            <i class="fa-solid fa-book"></i>
+                        </div>
+                        <p>Conteúdo Completo</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon"> 
+                            <i class="fa-solid fa-video"></i>
+                        </div>
+                        <p>Vídeoaulas Práticas</p>
+                    </div>
+                    <div class="feature">
+                        <div class="feature-icon"> 
+                            <i class="fa-solid fa-computer"></i>
+                        </div>
+                        <p>Exercícios Reais</p>
+                    </div>
+                </div>
+                <a href="#materiais" class="cta-button">Começar a aprender!</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="materiais" class="materials">
+        <div class="container">
+            <h2 class="section-title">Materiais do Curso</h2>
+            <p class="section-subtitle">Acesse videoaulas, materiais de apoio e exercícios práticos</p>
+
+            <div class="module">
+                <button class="module-header" aria-expanded="false">
+                    <h3 class="module-title">Módulo 1: HTML</h3>
+                    <span class="module-icon"><i class="fa-solid fa-chevron-down"></i></span>
+                </button>
+                <div class="module-content">
+                    <div class="lessons-grid">
+                        <div class="lesson-card">
+                            <div class="video-placeholder">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div class="lesson-content">
+                                <h4>Aula 1.1: Introdução ao HTML</h4>
+                                <p>Aprenda a estrutura básica de um documento HTML, tags essenciais e como criar sua primeira página web.</p>
+                                <div class="lesson-meta">
+                                    <span><i class="fa-solid fa-stopwatch"></i> <!-- Definir a quantidade da video aula --></span>
+                                    <a href="#" class="watch-link">Assistir <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="lesson-card">
+                            <div class="video-placeholder">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div class="lesson-content">
+                                <h4>Aula 1.2: Elementos Semânticos</h4>
+                                <p>Descubra como usar tags semânticas para criar páginas mais acessíveis e bem estruturadas.</p>
+                                <div class="lesson-meta">
+                                    <span><i class="fa-solid fa-stopwatch"></i> <!-- Definir a quantidade da video aula --></span>
+                                    <a href="#" class="watch-link">Assistir <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="lesson-card">
+                            <div class="video-placeholder">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div class="lesson-content">
+                                <h4>Aula 1.3: Formulários e Inputs</h4>
+                                <p>Crie formulários interativos com diferentes tipos de inputs, validação e boas práticas.</p>
+                                <div class="lesson-meta">
+                                    <span><i class="fa-solid fa-stopwatch"></i> <!-- Definir a quantidade da video aula --></span>
+                                    <a href="#" class="watch-link">Assistir <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="materials-download">
+                        <h4><i class="fa-solid fa-book"></i> Materiais de Apoio</h4>
+                        <div class="download-links">
+                            <a href="#" class="download-item">
+                                <span><i class="fa-solid fa-note-sticky"></i> Slides - Fundamentos HTML.pdf</span>
+                                <span class="download-icon"><i class="fa-solid fa-download"></i></span>
+                            </a>
+                            <a href="#" class="download-item">
+                                <span><i class="fa-solid fa-laptop-code"></i> Exemplos de Código.zip</span>
+                                <span class="download-icon"><i class="fa-solid fa-download"></i></span>
+                            </a>
+                            <a href="#" class="download-item">
+                                <span><i class="fa-solid fa-pencil"></i> Exercícios Práticos.pdf</span>
+                                <span class="download-icon"><i class="fa-solid fa-download"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="module">
+                <button class="module-header" aria-expanded="false">
+                    <h3 class="module-title">Módulo 2: CSS</h3>
+                    <span class="module-icon"><i class="fa-solid fa-chevron-down"></i></span>
+                </button>
+                <div class="module-content">
+                    <div class="lessons-grid">
+                        <div class="lesson-card">
+                            <div class="video-placeholder">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div class="lesson-content">
+                                <h4>Aula 2.1: CSS Básico</h4>
+                                <p>Entenda seletores, propriedades e como aplicar estilos aos seus elementos HTML.</p>
+                                <div class="lesson-meta">
+                                    <span><i class="fa-solid fa-stopwatch"></i> <!-- Definir a quantidade da video aula --></span>
+                                    <a href="#" class="watch-link">Assistir <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="lesson-card">
+                            <div class="video-placeholder">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div class="lesson-content">
+                                <h4>Aula 2.2: Flexbox e Grid</h4>
+                                <p>Domine layouts modernos com Flexbox e CSS Grid para criar designs responsivos.</p>
+                                <div class="lesson-meta">
+                                    <span><i class="fa-solid fa-stopwatch"></i> <!-- Definir a quantidade da video aula --></span>
+                                    <a href="#" class="watch-link">Assistir <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="lesson-card">
+                            <div class="video-placeholder">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div class="lesson-content">
+                                <h4>Aula 2.3: Animações e Transições</h4>
+                                <p>Adicione vida aos seus projetos com animações CSS e transições suaves.</p>
+                                <div class="lesson-meta">
+                                    <span><i class="fa-solid fa-stopwatch"></i> <!-- Definir a quantidade da video aula --></span>
+                                    <a href="#" class="watch-link">Assistir <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="materials-download">
+                        <h4><i class="fa-solid fa-book"></i> Materiais de Apoio</h4>
+                        <div class="download-links">
+                            <a href="#" class="download-item">
+                                <span><i class="fa-solid fa-note-sticky"></i> Guia Completo CSS.pdf</span>
+                                <span class="download-icon"><i class="fa-solid fa-download"></i></span>
+                            </a>
+                            <a href="#" class="download-item">
+                                <span><i class="fa-solid fa-laptop-code"></i> Exemplos de Layouts.zip</span>
+                                <span class="download-icon"><i class="fa-solid fa-download"></i></span>
+                            </a>
+                            <a href="#" class="download-item">
+                                <span><i class="fa-solid fa-pencil"></i> Desafios CSS.pdf</span>
+                                <span class="download-icon"><i class="fa-solid fa-download"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="module">
+                <button class="module-header" aria-expanded="false">
+                    <h3 class="module-title">Módulo 3: JavaScript</h3>
+                    <span class="module-icon"><i class="fa-solid fa-chevron-down"></i></span>
+                </button>
+                <div class="module-content">
+                    <div class="lessons-grid">
+                        <div class="lesson-card">
+                            <div class="video-placeholder">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div class="lesson-content">
+                                <h4>Aula 3.1: Fundamentos JavaScript</h4>
+                                <p>Variáveis, tipos de dados, operadores e estruturas de controle essenciais.</p>
+                                <div class="lesson-meta">
+                                    <span><i class="fa-solid fa-stopwatch"></i> <!-- Definir a quantidade da video aula --></span>
+                                    <a href="#" class="watch-link">Assistir <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="lesson-card">
+                            <div class="video-placeholder">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div class="lesson-content">
+                                <h4>Aula 3.2: Manipulação do DOM</h4>
+                                <p>Aprenda a selecionar, modificar e criar elementos HTML dinamicamente com JavaScript.</p>
+                                <div class="lesson-meta">
+                                    <span><i class="fa-solid fa-stopwatch"></i> <!-- Definir a quantidade da video aula --></span>
+                                    <a href="#" class="watch-link">Assistir <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="lesson-card">
+                            <div class="video-placeholder">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div class="lesson-content">
+                                <h4>Aula 3.3: Eventos e Interatividade</h4>
+                                <p>Crie páginas interativas respondendo a cliques, digitação e outros eventos do usuário.</p>
+                                <div class="lesson-meta">
+                                    <span><i class="fa-solid fa-stopwatch"></i> <!-- Definir a quantidade da video aula --></span>
+                                    <a href="#" class="watch-link">Assistir <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="materials-download">
+                        <h4><i class="fa-solid fa-book"></i> Materiais de Apoio</h4>
+                        <div class="download-links">
+                            <a href="#" class="download-item">
+                                <span><i class="fa-solid fa-note-sticky"></i> JavaScript Essencial.pdf</span>
+                                <span class="download-icon"><i class="fa-solid fa-download"></i></span>
+                            </a>
+                            <a href="#" class="download-item">
+                                <span><i class="fa-solid fa-laptop-code"></i> Projetos Práticos.zip</span>
+                                <span class="download-icon"><i class="fa-solid fa-download"></i></span>
+                            </a>
+                            <a href="#" class="download-item">
+                                <span><i class="fa-solid fa-pencil"></i> Exercícios JavaScript.pdf</span>
+                                <span class="download-icon"><i class="fa-solid fa-download"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="module module-extra">
+                <button class="module-header" aria-expanded="false">
+                    <div class="module-title-wrapper">
+                        <h3 class="module-title">Extra: Ferramentas Essenciais</h3>
+                        <span class="extra-badge">Bônus</span>
+                    </div>
+                    <span class="module-icon"><i class="fa-solid fa-chevron-down"></i></span>
+                </button>
+                <div class="module-content">
+                    <div class="lessons-grid">
+                        <div class="lesson-card">
+                            <div class="video-placeholder">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div class="lesson-content">
+                                <h4>VSCode: Seu Editor de Código</h4>
+                                <p>Configure e domine o Visual Studio Code com extensões, atalhos e dicas para aumentar sua produtividade.</p>
+                                <div class="lesson-meta">
+                                    <span><i class="fa-solid fa-stopwatch"></i> <!-- Definir a quantidade da video aula --></span>
+                                    <a href="#" class="watch-link">Assistir <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="lesson-card">
+                            <div class="video-placeholder">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div class="lesson-content">
+                                <h4>Git: Controle de Versão</h4>
+                                <p>Entenda os fundamentos do Git para versionar seu código, criar branches e trabalhar em equipe.</p>
+                                <div class="lesson-meta">
+                                    <span><i class="fa-solid fa-stopwatch"></i> <!-- Definir a quantidade da video aula --></span>
+                                    <a href="#" class="watch-link">Assistir <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="lesson-card">
+                            <div class="video-placeholder">
+                                <i class="fa-solid fa-circle-play"></i>
+                            </div>
+                            <div class="lesson-content">
+                                <h4>GitHub: Hospede Seus Projetos</h4>
+                                <p>Aprenda a usar o GitHub para hospedar repositórios, colaborar com outros desenvolvedores e criar seu portfólio.</p>
+                                <div class="lesson-meta">
+                                    <span><i class="fa-solid fa-stopwatch"></i> <!-- Definir a quantidade da video aula --></span>
+                                    <a href="#" class="watch-link">Assistir <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="materials-download">
+                        <h4><i class="fa-solid fa-book"></i> Materiais de Apoio</h4>
+                        <div class="download-links">
+                            <a href="#" class="download-item">
+                                <span><i class="fa-solid fa-note-sticky"></i> Guia de Instalação VSCode.pdf</span>
+                                <span class="download-icon"><i class="fa-solid fa-download"></i></span>
+                            </a>
+                            <a href="#" class="download-item">
+                                <span><i class="fa-solid fa-note-sticky"></i> Comandos Git Essenciais.pdf</span>
+                                <span class="download-icon"><i class="fa-solid fa-download"></i></span>
+                            </a>
+                            <a href="#" class="download-item">
+                                <span><i class="fa-solid fa-note-sticky"></i> GitHub para Iniciantes.pdf</span>
+                                <span class="download-icon"><i class="fa-solid fa-download"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+    </section>
+
+    <section id="contatos" class="contacts">
+        <div class="container">
+            <h2 class="section-title">Nossa Equipe</h2>
+            <p class="section-subtitle">Conheça os criadores deste curso</p>
+
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-photo">
+                        <!-- Adicionar a foto -->
+                    </div>
+                    <h3>João Vitor do Prado</h3>
+                    <p class="team-bio"><!-- Descrição da pessoa. --></p>
+                    <div class="social-links">
+                        <a href="" target="_blank" title="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="" target="_blank" title="Github">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="" target="_blank" title="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="" target="_blank" title="Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-photo">
+                        <!-- Adicionar a foto -->
+                    </div>
+                    <h3>Nycollas da Silva</h3>
+                    <p class="team-bio"><!-- Descrição da pessoa. --></p>
+                    <div class="social-links">
+                        <a href="" target="_blank" title="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="" target="_blank" title="Github">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="" target="_blank" title="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="" target="_blank" title="Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-photo">
+                        <!-- Adicionar a foto -->
+                    </div>
+                    <h3>Rodrigo Araújo</h3>
+                    <p class="team-bio"><!-- Descrição da pessoa. --></p>
+                    <div class="social-links">
+                        <a href="" target="_blank" title="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="" target="_blank" title="Github">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="" target="_blank" title="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="" target="_blank" title="Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="team-card">
+                    <div class="team-photo">
+                        <!-- Adicionar a foto -->
+                    </div>
+                    <h3>Sérgio Vitor Cavalcanti</h3>
+                    <p class="team-bio"><!-- Descrição da pessoa. --></p>
+                    <div class="social-links">
+                        <a href="" target="_blank" title="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="" target="_blank" title="Github">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="" target="_blank" title="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="" target="_blank" title="Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Todos os direitos reservados. Desenvolvido para matéria Certificadora de Competência Comum.</p>
+        </div>
+    </footer>
+
+    <script src="./src/script/script.js"></script>
+</body>
+</html>
